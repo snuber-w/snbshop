@@ -1,6 +1,8 @@
 <?php
 
+
 namespace app\controllers;
+
 
 use app\models\Search;
 use wfm\App;
@@ -9,7 +11,9 @@ use wfm\Pagination;
 /** @property Search $model */
 class SearchController extends AppController
 {
-    public function indexAction () {
+
+    public function indexAction()
+    {
         $s = get('s', 's');
         $lang = App::$app->getProperty('language');
         $page = get('page');

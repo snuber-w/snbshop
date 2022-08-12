@@ -25,7 +25,6 @@
                             <a class="add-to-wishlist" href="wishlist/add?id=<?= $product['id'] ?>" data-id="<?= $product['id'] ?>"><i class="far fa-heart"></i></a>
                         <?php endif; ?>
 
-
                     </div>
                 </div>
             </div>

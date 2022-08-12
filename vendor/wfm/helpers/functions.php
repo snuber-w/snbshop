@@ -78,9 +78,9 @@ function ___($key)
 function get_cart_icon($id)
 {
     if (!empty($_SESSION['cart']) && array_key_exists($id, $_SESSION['cart'])) {
-        $icon = '<i id="del-' . (int)$id . '" class="fas fa-luggage-cart"></i>';
+        $icon = '<i class="fas fa-luggage-cart"></i>';
     } else {
-        $icon = '<i id="del-' . (int)$id . '" class="fas fa-shopping-cart"></i>';
+        $icon = '<i class="fas fa-shopping-cart"></i>';
     }
     return $icon;
 }

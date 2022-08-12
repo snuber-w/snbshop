@@ -1,21 +1,25 @@
 <?php
 
+
 namespace app\controllers;
 
 use app\models\Wishlist;
 use wfm\App;
 
-/**  @property Wishlist $model */
+/** @property Wishlist $model */
 class WishlistController extends AppController
 {
-    public function indexAction() {
+
+    public function indexAction()
+    {
         $lang = App::$app->getProperty('language');
         $products = $this->model->get_wishlist_products($lang);
         $this->setMeta(___('wishlist_index_title'));
         $this->set(compact('products'));
     }
 
-    public function addAction() {
+    public function addAction()
+    {
         $id = get('id');
         if (!$id) {
             $answer = ['result' => 'error', 'text' => ___('tpl_wishlist_add_error')];
@@ -32,7 +36,8 @@ class WishlistController extends AppController
         exit(json_encode($answer));
     }
 
-    public function deleteAction() {
+    public function deleteAction()
+    {
         $id = get('id');
 
         if ($this->model->delete_from_wishlist($id)) {

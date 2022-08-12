@@ -1,16 +1,21 @@
 <?php
 
+
 namespace app\models;
+
 
 use RedBeanPHP\R;
 
 class Wishlist extends AppModel
 {
-    public function get_product($id): array|null|string {
-        return R::getCell("SELECT id FROM product WHERE status = 1 AND id =?", [$id]);
+
+    public function get_product($id): array|null|string
+    {
+        return R::getCell("SELECT id FROM product WHERE status = 1 AND id = ?", [$id]);
     }
 
-    public function add_to_wishlist($id) {
+    public function add_to_wishlist($id)
+    {
         $wishlist = self::get_wishlist_ids();
         if (!$wishlist) {
             setcookie('wishlist', $id, time() + 3600*24*7*30, '/');
@@ -26,7 +31,8 @@ class Wishlist extends AppModel
         }
     }
 
-    public static function get_wishlist_ids(): array {
+    public static function get_wishlist_ids(): array
+    {
         $wishlist = $_COOKIE['wishlist'] ?? '';
         if ($wishlist) {
             $wishlist = explode(',', $wishlist);
@@ -39,7 +45,8 @@ class Wishlist extends AppModel
         return [];
     }
 
-    public function get_wishlist_products($lang): array {
+    public function get_wishlist_products($lang): array
+    {
         $wishlist = self::get_wishlist_ids();
         if ($wishlist) {
             $wishlist = implode(',', $wishlist);
@@ -48,10 +55,11 @@ class Wishlist extends AppModel
         return [];
     }
 
-    public function delete_from_wishlist($id): bool {
+    public function delete_from_wishlist($id): bool
+    {
         $wishlist = self::get_wishlist_ids();
         $key = array_search($id, $wishlist);
-        if (false != $key) {
+        if (false !== $key) {
             unset($wishlist[$key]);
             if ($wishlist) {
                 $wishlist = implode(',', $wishlist);

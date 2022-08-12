@@ -1,6 +1,8 @@
 <?php
 
+
 namespace app\controllers;
+
 
 use app\models\Breadcrumbs;
 use app\models\Category;
@@ -10,7 +12,9 @@ use wfm\Pagination;
 /** @property Category $model */
 class CategoryController extends AppController
 {
-    public function viewAction () {
+
+    public function viewAction()
+    {
         $lang = App::$app->getProperty('language');
         $category = $this->model->get_category($this->route['slug'], $lang);
 
@@ -24,7 +28,7 @@ class CategoryController extends AppController
         $ids = !$ids ? $category['id'] : $ids . $category['id'];
 
         $page = get('page');
-        $perpage = $this->model->get_per_p() ?: App::$app->getProperty('pagination');
+        $perpage = App::$app->getProperty('pagination');
         $total = $this->model->get_count_products($ids);
         $pagination = new Pagination($page, $perpage, $total);
         $start = $pagination->getStart();
