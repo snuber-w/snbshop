@@ -4,6 +4,7 @@
 namespace wfm;
 
 
+use RedBeanPHP\R;
 use Valitron\Validator;
 
 abstract class Model
@@ -30,8 +31,9 @@ abstract class Model
 
     public function validate($data): bool
     {
+        $lang = App::$app->getProperty('language');
         Validator::langDir(APP . '/languages/validator/lang');
-        Validator::lang('ru');
+        Validator::lang($lang['code']);
         $validator = new Validator($data);
         $validator->rules($this->rules);
         $validator->labels($this->getLabels());
@@ -45,13 +47,13 @@ abstract class Model
 
     public function getErrors()
     {
-        $errors = '<ul>';
+        $errors = '<ol>';
         foreach ($this->errors as $error) {
             foreach ($error as $item) {
                 $errors .= "<li>{$item}</li>";
             }
         }
-        $errors .= '</ul>';
+        $errors .= '</ol>';
         $_SESSION['errors'] = $errors;
     }
 
@@ -62,6 +64,16 @@ abstract class Model
             $labels[$k] = ___($v);
         }
         return $labels;
+    }
+
+    public function save($table): int|string {
+        $tbl = R::dispense($table);
+        foreach ($this->attributes as $name => $value) {
+            if($value != "") {
+                $tbl->$name = $value;
+            }
+        }
+        return R::store($tbl);
     }
 
 }
