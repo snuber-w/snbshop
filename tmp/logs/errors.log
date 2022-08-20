@@ -1170,79 +1170,155 @@
 =================
 [2021-11-30 15:39:49] Текст ошибки: Товар по запросу canon-eos-5d3 не найден | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\app\controllers\ProductController.php | Строка: 21
 =================
-[2022-07-27 20:00:57] Текст ошибки: Контроллер app\controllers\CategoryController не найден | Файл: E:\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 62
+[2021-11-30 15:54:32] Текст ошибки: Контроллер app\controllers\CategoryController не найден | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 62
 =================
-[2022-07-27 20:01:40] Текст ошибки: Контроллер app\controllers\CategoryController не найден | Файл: E:\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 62
+[2021-11-30 15:57:09] Текст ошибки: Контроллер app\controllers\CategoryController не найден | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 62
 =================
-[2022-07-27 20:01:47] Текст ошибки: Контроллер app\controllers\CategoryController не найден | Файл: E:\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 62
+[2021-11-30 16:04:45] Текст ошибки: Не найден вид D:\Server538\OpenServer\domains\new-ishop.loc/app/views/Category/view.php | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\View.php | Строка: 38
 =================
-[2022-07-27 20:06:45] Текст ошибки: Контроллер app\controllers\CategoryController не найден | Файл: E:\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 62
+[2021-11-30 16:10:54] Текст ошибки: app\models\Category::getIds(): Return value must be of type string, array returned | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\app\models\Category.php | Строка: 22
 =================
-[2022-07-27 21:02:28] Текст ошибки: Контроллер app\controllers\CategoryController не найден | Файл: E:\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 62
+[2021-11-30 16:18:27] Текст ошибки: Контроллер app\controllers\CategoryController не найден | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 62
 =================
-[2022-07-27 21:02:49] Текст ошибки: Контроллер app\controllers\CategoryController не найден | Файл: E:\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 62
+[2021-11-30 17:09:24] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
 =================
-[2022-07-27 21:05:57] Текст ошибки: Контроллер app\controllers\CategoryController не найден | Файл: E:\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 62
+[2021-11-30 17:09:24] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
 =================
-[2022-07-30 09:59:17] Текст ошибки: Страница не найдена | Файл: E:\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+[2021-11-30 17:09:24] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
 =================
-[2022-07-30 10:03:17] Текст ошибки: Страница не найдена | Файл: E:\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+[2021-11-30 17:09:24] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
 =================
-[2022-07-30 10:21:56] Текст ошибки: Страница не найдена | Файл: E:\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+[2021-11-30 17:09:24] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
 =================
-[2022-07-30 10:22:34] Текст ошибки: Страница не найдена | Файл: E:\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+[2021-11-30 17:09:38] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
 =================
-[2022-07-30 10:22:39] Текст ошибки: Страница не найдена | Файл: E:\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+[2021-11-30 17:09:38] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
 =================
-[2022-07-30 10:23:41] Текст ошибки: Cannot access offset of type string on string | Файл: E:\domains\new-ishop.loc\app\models\Category.php | Строка: 16
+[2021-11-30 17:09:38] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
 =================
-[2022-07-30 10:23:41] Текст ошибки: Страница не найдена | Файл: E:\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+[2021-11-30 17:09:38] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
 =================
-[2022-07-30 14:31:22] Текст ошибки: Too few arguments to function app\models\Category::get_count_products(), 0 passed in E:\domains\new-ishop.loc\app\controllers\CategoryController.php on line 27 and exactly 1 expected | Файл: E:\domains\new-ishop.loc\app\models\Category.php | Строка: 31
+[2021-11-30 17:09:38] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
 =================
-[2022-07-30 14:52:34] Текст ошибки: Undefined constant "tpl_total_pagination" | Файл: E:\domains\new-ishop.loc\app\views\Category\view.php | Строка: 63
+[2021-11-30 17:09:40] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
 =================
-[2022-07-31 09:38:40] Текст ошибки: syntax error, unexpected token ";" | Файл: E:\domains\new-ishop.loc\app\controllers\CategoryController.php | Строка: 27
+[2021-11-30 17:09:40] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
 =================
-[2022-07-31 09:42:10] Текст ошибки: Undefined array key "per_p" | Файл: E:\domains\new-ishop.loc\app\controllers\CategoryController.php | Строка: 27
+[2021-11-30 17:09:40] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
 =================
-[2022-07-31 09:43:43] Текст ошибки: Undefined array key "per_p" | Файл: E:\domains\new-ishop.loc\app\controllers\CategoryController.php | Строка: 27
+[2021-11-30 17:09:40] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
 =================
-[2022-07-31 09:44:10] Текст ошибки: Undefined array key "per_p" | Файл: E:\domains\new-ishop.loc\app\controllers\CategoryController.php | Строка: 27
+[2021-11-30 17:09:40] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
 =================
-[2022-07-31 09:47:39] Текст ошибки: Undefined array key "per_p" | Файл: E:\domains\new-ishop.loc\app\controllers\CategoryController.php | Строка: 27
+[2021-11-30 17:09:45] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
 =================
-[2022-07-31 09:50:08] Текст ошибки: Undefined array key "perp" | Файл: E:\domains\new-ishop.loc\app\controllers\CategoryController.php | Строка: 27
+[2021-11-30 17:09:45] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
 =================
-[2022-07-31 09:50:44] Текст ошибки: Undefined array key "per_p" | Файл: E:\domains\new-ishop.loc\app\controllers\CategoryController.php | Строка: 27
+[2021-11-30 17:09:45] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
 =================
-[2022-07-31 09:56:08] Текст ошибки: Undefined variable $start | Файл: E:\domains\new-ishop.loc\app\controllers\CategoryController.php | Строка: 27
+[2021-11-30 17:09:45] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
 =================
-[2022-08-03 19:05:41] Текст ошибки: Контроллер app\controllers\SearchController не найден | Файл: E:\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 62
+[2021-11-30 17:09:45] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
 =================
-[2022-08-03 19:05:41] Текст ошибки: Страница не найдена | Файл: E:\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+[2021-11-30 17:09:47] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
 =================
-[2022-08-03 19:05:44] Текст ошибки: Контроллер app\controllers\SearchController не найден | Файл: E:\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 62
+[2021-11-30 17:09:47] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
 =================
-[2022-08-03 19:46:38] Текст ошибки: Undefined variable $land | Файл: E:\domains\new-ishop.loc\app\models\Search.php | Строка: 10
+[2021-11-30 17:09:47] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
 =================
-[2022-08-03 19:47:20] Текст ошибки: Division by zero | Файл: E:\domains\new-ishop.loc\vendor\wfm\Pagination.php | Строка: 103
+[2021-11-30 17:09:47] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
 =================
-[2022-08-03 20:25:06] Текст ошибки: Unsupported operand types: int / string | Файл: E:\domains\new-ishop.loc\vendor\wfm\Pagination.php | Строка: 103
+[2021-11-30 17:09:47] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
 =================
-[2022-08-03 20:25:06] Текст ошибки: Страница не найдена | Файл: E:\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+[2021-11-30 17:09:52] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
 =================
-[2022-08-08 16:42:42] Текст ошибки: Метод app\controllers\WishlistController::deleteAction не найден | Файл: E:\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 59
+[2021-11-30 17:09:52] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
 =================
-[2022-08-08 16:42:42] Текст ошибки: Страница не найдена | Файл: E:\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+[2021-11-30 17:09:52] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
 =================
-[2022-08-08 17:13:07] Текст ошибки: Метод app\controllers\WishlistController::deleteAction не найден | Файл: E:\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 59
+[2021-11-30 17:09:52] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
 =================
-[2022-08-09 23:51:01] Текст ошибки: Undefined constant "tpl_home_link" | Файл: E:\domains\new-ishop.loc\app\views\parts\footer.php | Строка: 14
+[2021-11-30 17:09:52] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
 =================
-[2022-08-09 23:51:41] Текст ошибки: Контроллер app\controllers\PageController не найден | Файл: E:\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 62
+[2021-11-30 17:11:11] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
 =================
-[2022-08-09 23:51:41] Текст ошибки: Страница не найдена | Файл: E:\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+[2021-11-30 17:11:11] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
 =================
-[2022-08-10 00:06:08] Текст ошибки: Undefined variable $slug | Файл: E:\domains\new-ishop.loc\app\controllers\PageController.php | Строка: 13
+[2021-11-30 17:11:11] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-11-30 17:11:11] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-11-30 17:11:11] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-11-30 17:11:15] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-11-30 17:11:15] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-11-30 17:11:15] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-11-30 17:11:15] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-11-30 17:11:15] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-11-30 17:11:17] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-11-30 17:11:17] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-11-30 17:11:17] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-11-30 17:11:17] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-11-30 17:11:17] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-11-30 17:11:21] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-11-30 17:11:21] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-11-30 17:11:21] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-11-30 17:11:21] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-11-30 17:11:21] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-11-30 21:01:51] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-11-30 21:02:59] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-11-30 21:12:08] Текст ошибки: Too few arguments to function app\models\Category::get_products(), 2 passed in D:\Server538\OpenServer\domains\new-ishop.loc\app\controllers\CategoryController.php on line 36 and exactly 4 expected | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\app\models\Category.php | Строка: 32
+=================
+[2021-12-01 19:59:25] Текст ошибки: Контроллер app\controllers\SearchController не найден | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 62
+=================
+[2021-12-01 19:59:25] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-12-01 19:59:34] Текст ошибки: Контроллер app\controllers\SearchController не найден | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 62
+=================
+[2021-12-01 20:09:32] Текст ошибки: Division by zero | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Pagination.php | Строка: 103
+=================
+[2021-12-01 20:20:29] Текст ошибки: Undefined variable $category | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\app\views\Search\index.php | Строка: 20
+=================
+[2021-12-02 13:04:48] Текст ошибки: count(): Argument #1 ($value) must be of type Countable|array, bool given | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\app\models\Wishlist.php | Строка: 24
+=================
+[2021-12-02 13:15:23] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-12-02 13:29:42] Текст ошибки: Not found language wishlist | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\app\widgets\language\Language.php | Строка: 42
+=================
+[2021-12-02 20:27:00] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'page.id' in 'on clause' | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 206
+=================
+[2021-12-02 20:27:00] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-12-04 13:02:01] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-12-04 13:02:25] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-12-04 13:14:43] Текст ошибки: Rule 'lengtMin' has not been registered with Valitron\Validator::addRule(). | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\vlucas\valitron\src\Valitron\Validator.php | Строка: 1410
+=================
+[2022-08-12 21:24:38] Текст ошибки: Array to string conversion | Файл: E:\domains\new-ishop.loc\vendor\vlucas\valitron\src\Valitron\Validator.php | Строка: 113
+=================
+[2022-08-12 21:25:27] Текст ошибки: Undefined array key "lang" | Файл: E:\domains\new-ishop.loc\vendor\wfm\Model.php | Строка: 34
+=================
+[2022-08-12 21:39:33] Текст ошибки: Class "app\models\R" not found | Файл: E:\domains\new-ishop.loc\app\models\AppModel.php | Строка: 12
+=================
+[2022-08-13 19:06:11] Текст ошибки: Страница не найдена | Файл: E:\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2022-08-15 09:20:38] Текст ошибки: Страница не найдена | Файл: E:\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
 =================
