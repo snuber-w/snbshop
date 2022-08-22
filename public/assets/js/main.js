@@ -37,7 +37,12 @@ $(function() {
 			type: 'GET',
 			data: {id: id},
 			success: function (res) {
-				showCart(res);
+				const url = window.location.toString();
+				if (url.indexOf('cart/view') !== -1) {
+					window.location = url;
+				} else {
+					showCart(res);
+				}
 				$('#del-' + id).removeClass('fa-luggage-cart').addClass('fa-shopping-cart');
 			},
 			error: function () {
