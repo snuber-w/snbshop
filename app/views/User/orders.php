@@ -50,8 +50,12 @@
 
                 <div class="row">
                     <div class="col-md-12">
-                        <p><?=count($orders)?> <?php __('user_orders_total_pagination'); ?> <?php echo $total; ?></p>
-                        <?php if($pagination->countPages > 1): ?>
+                        <p><?=count($orders)?> <?php __('user_orders_total_pagination'); ?> <?php
+                            /** @var TOTAL $total */
+                            echo $total; ?></p>
+                        <?php
+                        /** @var \wfm\Pagination $pagination */
+                        if($pagination->countPages > 1): ?>
                             <?php echo $pagination; ?>
                         <?php endif; ?>
                     </div>
