@@ -1,20 +1,17 @@
 <?php
 
-function debug($data, $die = false)
-{
+function debug($data, $die = false) {
     echo '<pre>' . print_r($data, 1) . '</pre>';
     if ($die) {
         die;
     }
 }
 
-function h($str)
-{
+function h($str) {
     return htmlspecialchars($str);
 }
 
-function redirect($http = false)
-{
+function redirect($http = false) {
     if ($http) {
         $redirect = $http;
     } else {
@@ -24,8 +21,7 @@ function redirect($http = false)
     die;
 }
 
-function base_url()
-{
+function base_url() {
     return PATH . '/' . (\wfm\App::$app->getProperty('lang') ? \wfm\App::$app->getProperty('lang') . '/' : '');
 }
 
@@ -34,8 +30,7 @@ function base_url()
  * @param string $type Values 'i', 'f', 's'
  * @return float|int|string
  */
-function get($key, $type = 'i')
-{
+function get($key, $type = 'i') {
     $param = $key;
     $$param = $_GET[$param] ?? '';
     if ($type == 'i') {
@@ -52,8 +47,7 @@ function get($key, $type = 'i')
  * @param string $type Values 'i', 'f', 's'
  * @return float|int|string
  */
-function post($key, $type = 's')
-{
+function post($key, $type = 's') {
     $param = $key;
     $$param = $_POST[$param] ?? '';
     if ($type == 'i') {
@@ -65,18 +59,15 @@ function post($key, $type = 's')
     }
 }
 
-function __($key)
-{
+function __($key) {
     echo \wfm\Language::get($key);
 }
 
-function ___($key)
-{
+function ___($key) {
     return \wfm\Language::get($key);
 }
 
-function get_cart_icon($id)
-{
+function get_cart_icon($id) {
     if (!empty($_SESSION['cart']) && array_key_exists($id, $_SESSION['cart'])) {
         $icon = '<i class="fas fa-luggage-cart"></i>';
     } else {
