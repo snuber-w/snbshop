@@ -14,8 +14,8 @@
                 <img src="<?= PATH ?>/adminlte/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
             </div>
             <div class="info">
-                <a href="<?php ADMIN ?>/user/edit?id=<?php echo $_SESSION['user']['id'] ?>" class="d-block">Mr. <?php echo h($_SESSION['user']['name']); ?></a>
-                <a href="<?php ADMIN ?>/user/logout" class="d-block">Logout</a>
+                <a href="<?php echo ADMIN ?>/user/edit?id=<?php echo $_SESSION['user']['id'] ?>" class="d-block">Mr. <?php echo h($_SESSION['user']['name']); ?></a>
+                <a href="<?php echo ADMIN ?>/user/logout" class="d-block">Logout</a>
             </div>
         </div>
 
