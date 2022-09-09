@@ -4,8 +4,11 @@
 namespace app\controllers\admin;
 
 
+use app\models\admin\Category;
 use RedBeanPHP\R;
+use wfm\App;
 
+/** @property Category $model */
 class CategoryController extends AppController
 {
 
@@ -36,6 +39,47 @@ class CategoryController extends AppController
             $_SESSION['success'] = 'Категория удалена';
         }
         redirect();
+    }
+
+    public function addAction() {
+
+        if (!empty($_POST)) {
+            if ($this->model->category_validate()) {
+                if ($this->model->save_category()) {
+                    $_SESSION['success'] = 'Категория сохранена';
+                } else {
+                    $_SESSION['errors'] = 'Ошибка!';
+                }
+            }
+            redirect();
+        }
+        $title = 'Добавление категории';
+        $this->setMeta("Админка :: {$title}");
+        $this->set(compact('title'));
+    }
+
+    public function editAction() {
+
+        $id = get('id');
+        if (!empty($_POST)) {
+            if ($this->model->category_validate()) {
+                if ($this->model->update_category($id)) {
+                    $_SESSION['success'] = 'Категория обновлена';
+                } else {
+                    $_SESSION['errors'] = 'Категория не обновлена';
+                }
+            }
+            redirect();
+        }
+        $category = $this->model->get_category($id);
+        if (!$category) {
+            throw new \Exception('Not found category', 404);
+        }
+        $lang = App::$app->getProperty('language')['id'];
+        App::$app->setProperty('parent_id', $category[$lang]['parent_id']);
+        $title = 'Редактирование категории';
+        $this->setMeta("Админка :: {$title}");
+        $this->set(compact('title', 'category'));
     }
 
 }
