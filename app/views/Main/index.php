@@ -10,15 +10,15 @@ use wfm\View;
             <div class="carousel-indicators">
                 <?php for ($i = 0; $i < count($slides); $i++): ?>
                     <button type="button" data-bs-target="#carouselExampleIndicators"
-                            data-bs-slide-to="<?= $i ?>" <?php if ($i == 0) echo 'class="active"' ?> aria-current="true"
-                            aria-label="Slide <?= $i ?>"></button>
+                            data-bs-slide-to="<?php echo $i; ?>" <?php if ($i == 0) echo 'class="active"' ?> aria-current="true"
+                            aria-label="Slide <?php echo $i; ?>"></button>
                 <?php endfor; ?>
             </div>
             <div class="carousel-inner">
                 <?php $i = 1;
                 foreach ($slides as $slide): ?>
                     <div class="carousel-item <?php if ($i == 1) echo 'active' ?>">
-                        <img src="<?= PATH . $slide->img ?>" class="d-block w-100" alt="">
+                        <img src="<?php echo PATH . $slide->img; ?>" class="d-block w-100" alt="">
                     </div>
                     <?php $i++; endforeach; ?>
             </div>

@@ -33,9 +33,9 @@
                         <tbody>
                         <?php foreach ($files as $file): ?>
                             <tr>
-                                <td><a href="user/order?id=<?= $file['order_id'] ?>"><?= $file['order_id'] ?></a></td>
-                                <td><?= $file['name'] ?></td>
-                                <td><a href="user/download?id=<?= $file['id'] ?>"><i class="fas fa-download"></i></a></td>
+                                <td><a href="user/order?id=<?php echo $file['order_id']; ?>"><?php echo $file['order_id']; ?></a></td>
+                                <td><?php echo $file['name']; ?></td>
+                                <td><a href="user/download?id=<?php echo $file['id']; ?>"><i class="fas fa-download"></i></a></td>
                             </tr>
                         <?php endforeach; ?>
                         </tbody>
@@ -44,9 +44,9 @@
 
                 <div class="row">
                     <div class="col-md-12">
-                        <p><?=count($files)?> <?php __('user_files_total_pagination'); ?> <?=$total;?></p>
+                        <p><?php echo count($files); ?> <?php __('user_files_total_pagination'); ?><?php echo $total; ?></p>
                         <?php if($pagination->countPages > 1): ?>
-                            <?=$pagination;?>
+                            <?php echo $pagination; ?>
                         <?php endif; ?>
                     </div>
                 </div>

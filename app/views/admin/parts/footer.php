@@ -20,18 +20,18 @@
 <!-- ./wrapper -->
 
 <script>
-    const PATH = '<?= PATH ?>';
-    const ADMIN = '<?= ADMIN ?>';
+    const PATH = '<?php echo PATH; ?>';
+    const ADMIN = '<?php echo ADMIN; ?>';
 </script>
 
 <!-- jQuery -->
-<script src="<?= PATH ?>/adminlte/plugins/jquery/jquery.min.js"></script>
+<script src="<?php echo PATH; ?>/adminlte/plugins/jquery/jquery.min.js"></script>
 <!-- Bootstrap 4 -->
-<script src="<?= PATH ?>/adminlte/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="<?php echo PATH; ?>/adminlte/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- AdminLTE App -->
-<script src="<?= PATH ?>/adminlte/dist/js/adminlte.min.js"></script>
+<script src="<?php echo PATH; ?>/adminlte/dist/js/adminlte.min.js"></script>
 <!-- AdminLTE for demo purposes -->
-<script src="<?= PATH ?>/adminlte/dist/js/demo.js"></script>
-<script src="<?= PATH ?>/adminlte/main.js"></script>
+<script src="<?php echo PATH; ?>/adminlte/dist/js/demo.js"></script>
+<script src="<?php echo PATH; ?>/adminlte/main.js"></script>
 </body>
 </html>

@@ -15,21 +15,21 @@
                 <?php foreach ($_SESSION['cart'] as $id => $item): ?>
                     <tr>
                         <td>
-                            <a href="product/<?= $item['slug'] ?>"><img src="<?= PATH . $item['img'] ?>" alt=""></a>
+                            <a href="product/<?php echo $item['slug']; ?>"><img src="<?php echo PATH . $item['img']; ?>" alt=""></a>
                         </td>
-                        <td><a href="product/<?= $item['slug'] ?>"><?= $item['title'] ?></a></td>
-                        <td><?= $item['qty'] ?></td>
-                        <td>$<?= $item['price'] ?></td>
-                        <td><a href="cart/delete?id=<?= $id ?>" data-id="<?= $id ?>" class="del-item"><i class="far fa-trash-alt"></i></a></td>
+                        <td><a href="product/<?php echo $item['slug']; ?>"><?php echo $item['title']; ?></a></td>
+                        <td><?php echo $item['qty']; ?></td>
+                        <td>$<?php echo $item['price']; ?></td>
+                        <td><a href="cart/delete?id=<?php echo $id; ?>" data-id="<?php echo $id; ?>" class="del-item"><i class="far fa-trash-alt"></i></a></td>
                     </tr>
                 <?php endforeach; ?>
                 <tr>
                     <td colspan="4" class="text-end"><?php __('tpl_cart_total_qty') ?></td>
-                    <td class="cart-qty"><?= $_SESSION['cart.qty'] ?></td>
+                    <td class="cart-qty"><?php echo $_SESSION['cart.qty']; ?></td>
                 </tr>
                 <tr>
                     <td colspan="4" class="text-end"><?php __('tpl_cart_sum') ?></td>
-                    <td class="cart-sum">$<?= $_SESSION['cart.sum'] ?></td>
+                    <td class="cart-sum">$<?php echo $_SESSION['cart.sum']; ?></td>
                 </tr>
                 </tbody>
             </table>
