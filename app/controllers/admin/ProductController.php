@@ -30,7 +30,14 @@ class ProductController extends AppController
     public function addAction() {
 
         if (!empty($_POST)) {
-
+            if ($this->model->product_validate()) {
+                if ($this->model->save_product()) {
+                    $_SESSION['success'] = 'Товар добавлен';
+                } else {
+                    $_SESSION['errors'] = 'Ошибка добавления товара';
+                }
+            }
+            redirect();
         }
         $title = 'Новый товар';
         $this->setMeta("Админка -=- {$title}");

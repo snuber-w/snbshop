@@ -42,7 +42,7 @@
 
                                 <div class="form-group">
                                     <label class="required" for="title">Наименование</label>
-                                    <input type="text" name="category_description[<?= $lang['id'] ?>][title]" class="form-control" id="title" placeholder="Наименование категории" value="<?= get_field_array_value('category_description', $lang['id'], 'title') ?>" required2>
+                                    <input type="text" name="category_description[<?= $lang['id'] ?>][title]" class="form-control" id="title" placeholder="Наименование категории" value="<?= get_field_array_value('category_description', $lang['id'], 'title') ?>" required>
                                 </div>
 
                                 <div class="form-group">
