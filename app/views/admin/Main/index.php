@@ -27,7 +27,7 @@
                         <div class="icon">
                             <i class="fas fa-luggage-cart"></i>
                         </div>
-                        <a href="<?php echo ADMIN; ?>/orders?status=0" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                        <a href="<?php echo ADMIN; ?>/order?status=new" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
                     </div>
                 </div>
                 <!-- ./col -->

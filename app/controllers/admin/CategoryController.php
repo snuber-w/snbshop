@@ -54,7 +54,7 @@ class CategoryController extends AppController
             redirect();
         }
         $title = 'Добавление категории';
-        $this->setMeta("Админка :: {$title}");
+        $this->setMeta("Админка -=- {$title}");
         $this->set(compact('title'));
     }
 

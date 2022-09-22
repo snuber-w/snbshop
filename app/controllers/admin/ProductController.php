@@ -73,6 +73,23 @@ class ProductController extends AppController
         $this->set(compact('title', 'product', 'gallery'));
     }
 
+    public function deleteAction() {
+
+        $id = get('id');
+
+        if (R::count('order_product', 'product_id = ?', [$id])) {
+            $_SESSION['errors'] = 'Невозможно удалить - данный товар продается';
+            redirect();
+        }
+
+        if ($this->model->product_delete($id)) {
+            $_SESSION['success'] = 'Товар удален';
+        } else {
+            $_SESSION['errors'] = 'Ошибка удаления товара';
+        }
+        redirect();
+    }
+
     public function getDownloadAction () {
 
         $q = get('q', 's');

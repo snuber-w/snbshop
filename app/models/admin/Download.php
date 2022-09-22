@@ -77,6 +77,7 @@ class Download extends AppModel
     }
 
     public function download_delete($id) {
+
         $file_name = R::getCell("SELECT filename FROM download WHERE id = ?", [$id]);
         $file_path = WWW . "/downloads/{$file_name}";
         if (file_exists($file_path)) {
@@ -87,7 +88,7 @@ class Download extends AppModel
                 R::commit();
                 unlink($file_path);
                 return true;
-            } catch (\Exception$e) {
+            } catch (\Exception $e) {
                 R::rollback();
                 return false;
             }

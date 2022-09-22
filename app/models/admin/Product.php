@@ -205,4 +205,19 @@ class Product extends AppModel
         return R::getCol("SELECT img FROM product_gallery WHERE product_id = ?", [$id]);
     }
 
+    public function product_delete($id) {
+        R::begin();
+        try {
+            R::exec("DELETE FROM product WHERE id = ?", [$id]);
+            R::exec("DELETE FROM product_description WHERE product_id = ?", [$id]);
+            R::exec("DELETE FROM product_gallery WHERE product_id = ?", [$id]);
+            R::exec("DELETE FROM product_download WHERE product_id = ?", [$id]);
+            R::commit();
+            return true;
+        } catch (\Exception $e) {
+            R::rollback();
+            return false;
+        }
+    }
+
 }
