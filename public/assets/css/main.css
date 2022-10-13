@@ -154,7 +154,7 @@ li a.dropdown-item:focus, li a.dropdown-item:hover {
 
 /* Header top */
 .header-top {
-	background-color: #ee6e73;
+	background-color: #28660f;
 	position: relative;
 }
 
@@ -347,7 +347,7 @@ li a.dropdown-item:focus, li a.dropdown-item:hover {
 
 .service-item i {
 	font-size: 70px;
-	color: #ec4835;
+	color: #28660f;
 }
 
 .service-item p {

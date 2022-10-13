@@ -16,7 +16,7 @@ class ProductController extends AppController
 
         $lang = App::$app->getProperty('language');
         $page = get('page');
-        $perpage = 3;
+        $perpage = 20;
         $total = R::count('product');
         $pagination = new Pagination($page, $perpage, $total);
         $start = $pagination->getStart();
